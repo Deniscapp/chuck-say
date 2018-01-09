@@ -1,0 +1,31 @@
+{
+  "name": "entria_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "chuck": "bin/chuck.js"
+  },
+  "scripts": {
+    "build": "babel flow/ -d lib/",
+    "test": "ava",
+    "flow": "flow"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-fetch": "^1.7.3",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.15.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "flow-bin": "^0.63.1",
+    "prettier": "1.9.2"
+  }
+}
