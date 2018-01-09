@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const argv = require('yargs').usage('Usage $0 -c [categorie], -t [text], -l')
+const argv = require('yargs').usage('Usage $0 -c [category], -t [text], -l')
     .example('$0 -l', 'list all the available categories')
     .example('$0 -c religion', 'gives you a fact/joke about Chuck involving religion')
     .argv;
